@@ -1,7 +1,7 @@
 # TDD in React
 
 ## Extra Dependencies
-Two extra dependencies have been added to the Typescript `create react-app` template.
+Two extra dependencies have been added to the Typescript create-react-app template.
 - `bootstrap` - Allows the addition of bootstrap styling
 - `msw` - Mock Service Worker provides a test server that makes it easy to create stubs for integration testing.
 
