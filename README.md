@@ -1,6 +1,12 @@
 # TDD in React
 
-## Dependencies to add
+## Extra Dependencies
+Two extra dependencies have been added to the Typescript create react-app-template.
+`bootstrap` - Allows the addition of bootstrap styling
+`msw` - Mock Service Worker provides a test server that makes it easy to create stubs for integration testing.
+
+To add them to your project, run the commands below:
+
 ``` bash
 yarn add bootstrap
 yarn add -D msw
