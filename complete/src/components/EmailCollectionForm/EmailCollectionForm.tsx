@@ -50,42 +50,46 @@ const EmailCollectionForm = () => {
 
     return (
         <>
-            <div className="form-group">
-                <label htmlFor="nameInput">Full Name</label>
-                <input
-                    type="text"
-                    className="form-control"
-                    id="nameInput"
-                    data-testid="nameInput"
-                    placeholder="John Doe"
-                    onChange={onNameChange}
-                />
+            <div className="card" style={{width: '30rem'}}>
+                <div className="card-body">
+                    <div className="form-group">
+                        <label htmlFor="nameInput">Full Name</label>
+                        <input
+                            type="text"
+                            className="form-control"
+                            id="nameInput"
+                            data-testid="nameInput"
+                            placeholder="John Doe"
+                            onChange={onNameChange}
+                        />
 
-            </div>
-            <div className="form-group">
-                <label htmlFor="emailInput">Email address</label>
-                <input
-                    type="email"
-                    className="form-control"
-                    id="emailInput"
-                    data-testid="emailInput"
-                    placeholder="email@example.com"
-                    onChange={onEmailChange}
-                />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="emailInput">Email address</label>
+                        <input
+                            type="email"
+                            className="form-control"
+                            id="emailInput"
+                            data-testid="emailInput"
+                            placeholder="email@example.com"
+                            onChange={onEmailChange}
+                        />
 
-            </div>
-            <button
-                className="btn btn-primary"
-                id="submitButton"
-                data-testid="submitButton"
-                disabled={!isValid}
-                type="submit"
-                onClick={onSubmit}>
-                Submit form
-            </button>
-            <div hidden={!contactId}>
-                <label htmlFor="contactId">ContactId</label>
-                <p id="contactId" data-testid="contactId">{contactId}</p>
+                    </div>
+                    <button
+                        className="btn btn-primary"
+                        id="submitButton"
+                        data-testid="submitButton"
+                        disabled={!isValid}
+                        type="submit"
+                        onClick={onSubmit}>
+                        Submit
+                    </button>
+                    <div hidden={!contactId}>
+                        <label htmlFor="contactId">ContactId</label>
+                        <p id="contactId" data-testid="contactId">{contactId}</p>
+                    </div>
+                </div>
             </div>
         </>
     );
