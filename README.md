@@ -1,7 +1,6 @@
 # TDD in React
 
 # Overview
-
 [from Martin Fowler](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
 
 Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests. It was developed by Kent Beck in the late 1990's as part of Extreme Programming. In essence you follow three simple steps repeatedly:
@@ -33,7 +32,7 @@ yarn add -D msw
 ### React Testing Library
 `@testing-library/react` is provided out of the box from the create-react-app template. It collects many tools to help React developers write unit tests around their components. Before you get started, take some time to familiarize yourself with it's utilities by reviewing the [React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro/).
 
-### Story to implement
+## Excercise
 Practice your TDD skills by implementing the story below.
 ```
 As a marketing team member
