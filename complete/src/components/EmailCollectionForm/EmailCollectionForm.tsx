@@ -50,6 +50,7 @@ const EmailCollectionForm = () => {
 
     return (
         <>
+            {/* copy 1 */}
             <div className="card" style={{width: '30rem'}}>
                 <div className="card-body">
                     <div className="form-group">

@@ -8,7 +8,7 @@ jest.mock('axios');
 const axiosPostMock = axios.post as jest.MockedFunction<(url: string, data?: any, config?: AxiosRequestConfig | undefined) => Promise<AxiosResponse>>;
 
 describe('EmailCollectionForm', () => {
-    it('should render fields to collect name and email', async () => {
+    it('should render fields to submit name and email', async () => {
         //Arrange
         //Act
         render(<EmailCollectionForm />);
