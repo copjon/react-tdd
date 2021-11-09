@@ -28,8 +28,10 @@ yarn create react-app [empty-project] --template Typescript
 yarn add bootstrap
 yarn add -D msw
 ```
+### Testing with Create React App Projects
+Create React App has some excellent built in tooling for writing and running unit tests. Please see the CRA [documentation](https://create-react-app.dev/docs/running-tests/) for a great intro into testing with React.
 
-### React Testing Library
+#### React Testing Library
 `@testing-library/react` is provided out of the box from the create-react-app template. It collects many tools to help React developers write unit tests around their components. Before you get started, take some time to familiarize yourself with it's utilities by reviewing the [React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro/). It also helpful to review one of the testing-libraries core testing tools: [Jest](https://jestjs.io/docs/getting-started).
 
 ## Excercise
